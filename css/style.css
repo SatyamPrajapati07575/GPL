@@ -1,0 +1,72 @@
+
+*{
+    font-family: Georgia, serif;
+    /* padding: 0;
+    margin: 0; */
+    overflow-x: hidden;
+}
+
+/* query start */
+    .query{
+        background-color: #065fad;
+    }
+    .smi{
+        list-style-type: none;
+    }
+    .smi li{
+        display: inline-block;
+        color: white;
+        margin-right: 10px;
+    }
+    .smi li a{
+        color:white;
+        text-decoration: none;
+    }
+/* query End */
+/* logosection start */
+    .blue{
+        background-color: #1e67a8;
+    }
+    .blue2{
+        background-color: #05579e;
+    }
+
+/* end */
+
+/* navbar start  */
+    .navbar-nav ul li a{
+        color: white;
+    }
+
+    .sticky{
+        position: sticky;
+        top: 0px;
+    }
+
+/* novbar end */
+
+.about_para {
+    line-height: 29px;
+    text-align: justify;
+
+}
+.sp{
+    min-height: 300px;
+}
+.links p a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 16px;
+} 
+
+/* registation */
+
+.reg{
+    background-image: url('../images/slider/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.reg_inner{
+    background-color: rgba(24, 59, 211, 0.4);
+}
